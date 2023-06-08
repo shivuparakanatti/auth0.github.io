@@ -9,6 +9,7 @@ const Signup = () => {
     email: "",
     password: "",
   });
+  
 
   const [alert, setAlert] = useState("");
   const [success, setSuccess] = useState("");
