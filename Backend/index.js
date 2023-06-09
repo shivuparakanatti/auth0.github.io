@@ -6,7 +6,6 @@ const cors = require("cors")
 const configDb = require('./config/db')
 const router = require('../Backend/config/routes')
 
-
 app.use(express.json())
 app.use(cors())
 app.use(router)
