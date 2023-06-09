@@ -14,6 +14,5 @@ app.use(router)
 configDb()
 
 app.listen(port,()=>{
-    
     console.log('app is listening on',port)
 })
