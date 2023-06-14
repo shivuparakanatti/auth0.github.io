@@ -9,6 +9,7 @@ const configDb = ()=>{
     })
     .catch(err=>{
         console.log(err)
+        
     })
 }
 
