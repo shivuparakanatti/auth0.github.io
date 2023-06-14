@@ -7,6 +7,7 @@ const configDb = ()=>{
     .then(()=>{
         console.log('connected to db')
     })
+    
     .catch(err=>{
         console.log(err)
         
