@@ -10,6 +10,7 @@ function App() {
   return (
     <div className="">
       <NavBar/>
+      
       <Routes>
         <Route path='/Signup' Component={Signup} exact="true"/>
         <Route path='/Login' Component={Login} exact="true"/>
